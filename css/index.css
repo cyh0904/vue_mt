@@ -1,0 +1,414 @@
+#index{
+  font-size: 0.28rem;
+  background-color: #f5f5f5;
+}
+a{
+  text-decoration: none;
+}
+.headerbox{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #fff;
+z-index: 9999;
+}
+.header{
+width: 100%;
+height: 0.9rem;
+line-height: 0.9rem;
+box-sizing: border-box;
+border-bottom: 0.02rem solid #f1f1f1;
+display: flex;
+justify-content: space-around;
+}
+.main{
+margin-top: 0.9rem;
+}
+.mt-logo{
+  width: 2.2rem;
+}
+.mt-logo img{
+  width: 1.94rem;
+  margin-top: 0.2rem;
+}
+.mt-nav{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0.6rem;
+}
+.mt-navItem{
+  font-size: 0.3rem;
+  margin-right: 0.3rem;
+  color: #999;
+}
+.search{
+  margin-right: 0.4rem;
+}
+.search a i{
+  font-size: 0.46rem;
+  color: red;
+}
+/* 轮播 */
+.swiper{
+  width: 100%;
+}
+.my-swipe{
+  width: 100%;
+  height: 2.6rem;
+}
+.my-swipe .van-swipe-item {
+  color: #fff;
+  font-size: 0.4rem;
+  text-align: center;
+}
+.swiper-img{
+  width: 100%;
+}
+/* 四个分类 */
+.type{
+  margin-bottom: 10px;
+}
+.type-list{
+  height: 1.88rem;
+  padding: 0.3rem 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  box-sizing: border-box;
+}
+.type-item{
+  flex: 1;
+  text-align: center;
+}
+.type-item a{
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+}
+.type-item a img{
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+.type-item a span{
+  display: block;
+  font-size: 0.28rem;
+  color: #999;
+}
+
+/* 页面container */
+.container{
+  width: 100%;
+  /* padding-bottom: 60px; */
+}
+/* 主编力荐 */
+.recommend{
+  margin-bottom: 0.2rem;
+  background: #fff;
+  overflow: auto;
+}
+.recommend-title{
+  height: 0.86rem;
+  font-size: 0.3rem;
+  line-height: 0.34rem;
+  color: #333;
+  padding: 0.24rem 0.3rem;
+  box-sizing: border-box;
+}
+.recommend-title em{
+  background-color: #ee5048!important;
+  display: inline-block;
+  width: 0.06rem;
+  height: 0.28rem;
+  margin-right: 0.2rem;
+  vertical-align: -0.02rem;
+  border-radius: 0.2rem;
+  -webkit-transform: translateY(0.02rem);
+  transform: translateY(0.02rem);
+}
+.recommend-box{
+  padding: 0 0.36rem 0.3rem 0.36rem;
+}
+.recommend-list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  overflow: hidden;
+  line-height: 0.48rem;
+}
+.recommend-item{
+  width: 22%;
+}
+.imgbox{
+  width: 100%;
+  height: 2.1rem;
+  background: url('https://pic.motieimg.com/web-wechat/dist/static/img/book.86e8302.png') no-repeat;
+  background-size: cover;
+}
+.imgbox img{
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.1rem;
+}
+.recommend-item a p{
+  margin-bottom: 0.16rem;
+  margin-top: 0.1rem;
+  font-size: 0.28rem;
+  height: 0.3rem;
+  line-height: 0.34rem;
+  overflow: hidden;
+  vertical-align: middle;
+  color: #333;
+  text-align: left;
+}
+.recommend-more{
+  display: block;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.3rem;
+  text-align: center;
+  color: #ee5048;
+  border-top: 0.02rem solid #e5e5df;
+  background: #fff;
+  overflow: hidden;
+}
+/* 第二个轮播 */
+.lunbo{
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background: url('https://cdn.motieimg.com/store/3906352e8bae293a822be060e71f1a73.jpg'); */
+  background: 50% no-repeat;
+  background-size: cover;
+}
+
+/* 完本精品 */
+.goods{
+width: 100%;
+margin-bottom: 0.2rem;
+background: #fff;
+overflow: auto;
+}
+.good-item{
+box-sizing: border-box;
+margin: 0 0.36rem 0.3rem;
+padding-bottom: 0.3rem;
+/* display: flex; */
+border-bottom: 0.02rem solid #e5e5df;
+overflow: hidden;
+}
+.good-item-box{
+display: flex;
+}
+.gdItem-left{
+margin-right: 0.2rem;
+height: 2.1rem;
+width: 1.5rem;
+border-radius: 0.14rem;
+}
+.gdItem-right{
+flex: 1.0;
+margin-bottom: 0.1rem;
+overflow: hidden;
+}
+.rg-desc{
+height: 1.6rem;
+}
+.rg-desc a{
+color: #333;
+}
+.rg-desc h4{
+font-size: 0.3rem;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.08rem 0 0.24rem;
+display: block;
+line-height: 0.32rem;
+white-space: nowrap;
+}
+.rg-desc span{
+margin-bottom: 0.1rem;
+font-weight: 400;
+line-height: 0.4rem;
+height: 0.84rem;
+color: #999;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+.rg-foot{
+position: relative;
+height: 0.44rem;
+line-height: 0.44rem;
+font-size: 0.28rem;
+color: #bbb;
+display: flex;
+justify-content: space-between;
+}
+.rg-foot img{
+width: 0.3rem;
+height: 0.3rem;
+border-radius: 50%;
+margin-right: 0.1rem;
+border: 0.02rem solid #e5e5e5;
+vertical-align: text-bottom;
+}
+.rgf-tag{
+font-size: 0.24rem;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.rgf-tag a{
+display: inline-block;
+margin-left: 0.12rem;
+text-align: center;
+text-decoration: none;
+color: #333;
+}
+.rgf-tag a i{
+border: 0.02rem solid #bbb;
+border-radius: 0.04rem;
+color: #bbb;
+font-size: 0.24rem;
+height: 0.4rem;
+margin-left: 0.1rem;
+line-height: normal;
+padding: 0.02rem 0.04rem 0;
+}
+.good-list>.good-item:last-child{
+padding-bottom: 0;
+}
+/* 无线风向榜 */
+.wind .recommend-item{
+width: auto;
+}
+.wind .imgbox{
+height: 2.66rem;
+}
+.imgbox .wind-left{
+width: 1.9rem;
+height: 2.66rem;
+}
+/* 新书抢先 */
+.newbook{
+width: 1.7rem;
+height: 2.4rem;
+}
+/* 发现好书 */
+.find{
+margin-bottom: 0.2rem;
+background: #fff;
+overflow: auto;
+}
+.find-title{
+height: 0.86rem;
+font-size: 0.3rem;
+line-height: 0.34rem;
+color: #333;
+padding: 0.24rem 0.3rem;
+box-sizing: border-box;
+}
+.find-title em{
+background-color: #ee5048!important;
+display: inline-block;
+width: 0.06rem;
+height: 0.28rem;
+margin-right: 0.2rem;
+vertical-align: -0.02rem;
+border-radius: 0.2rem;
+transform: translateY(0.02rem);
+}
+.find-box{
+padding: 0 0.36rem 0.3rem 0.36rem;
+}
+.find-list{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 0;
+overflow: hidden;
+line-height: 0.48rem;
+}
+.find-item{
+width: 29%;
+padding-bottom: 0.3rem;
+}
+.find-imgbox{
+height: 134px;
+background: url('https://pic.motieimg.com/web-wechat/dist/static/img/book.86e8302.png') no-repeat;
+background-size: cover;
+}
+.find-imgbox img{
+width: 1.9rem;
+height: 2.68rem;
+border-radius: 0.1rem;
+}
+.find-bookTit{
+margin-top: 0.16rem;
+font-size: 0.28rem;
+height: 0.3rem;
+line-height: 0.34rem;
+overflow: hidden;
+vertical-align: middle;
+color: #333;
+text-align: left;
+}
+.find-author{
+width: 2rem;
+height: 0.36rem;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+line-height: 0.44rem;
+color: #999;
+margin-top: 0.1rem;
+}
+.find-author img{
+width: 15px;
+height: 15px;
+margin-right: 5px;
+display: inline-block;
+border-radius: 50%;
+vertical-align: -0.04rem;
+}
+/* 页面底部footer */
+.footer{
+padding: 0.36rem 0;
+/* margin-bottom: 0.2rem; */
+margin-bottom: 1.3rem;
+text-align: center;
+background: #fff;
+}
+.footer-jump{
+display: flex;
+justify-content: space-around;
+}
+.footer-jump a{
+font-size: 0.28rem;
+color: #333;
+}
+.footer-text{
+margin-top: 0.2rem;
+color: #999;
+}
+
+/* 回到顶部 */
+.btoTop{
+position: fixed;
+bottom: 60px;
+right: 18px;
+cursor: pointer;
+z-index: 1000;
+}
+.btoTop-tag{
+border-radius: 50%;
+background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAMAAABG8BK2AAAArlBMVEX///8AAAC7u7v9/f329vbe3t74+Pjk5OS7u7u7u7u7u7v6+vrPz8/ExMTCwsK7u7u7u7vZ2dm7u7u/v7/IyMi7u7vS0tLy8vLq6urT09O7u7u7u7u7u7u7u7u7u7u7u7vx8fHg4OC7u7u7u7u7u7vNzc27u7u7u7u7u7vd3d3h4eHl5eW7u7u7u7u7u7u7u7vFxcXJycnp6em7u7u7u7u7u7u7u7u7u7vx8fG7u7u42OGaAAAAOXRSTlPWANbX1tbX1rbKBdfW1tYXEOxT/NaQ8NbW1pSNfUU+JtbWwbBR85dLO+nn5dLPuq/59uLEqKV4cN42DYSbAAACs0lEQVRYw7XY53LiMBQF4Jsj924DoXcC6eymkPD+L7amzF5sLGE0w5nhlz3fCFuWri7dyTNe/LTmMxdwZ/PWz2KsuFXGJFn/E6V89rPkKmbUewUQds1O2xJEwmp3zG4I4LU3qst4CwdAYBtUimEHAJyFV4d5zJHIZKMomVEOPV5k4hYQ2oKkEXYItGI1M3QBk5FqyATcoYLxBkBg0MUYATDwZEzyDUypVqbAd1LNxA6iCdXMJIITVzHxO5oW1Y7VxHt8ziQOmj5dEb8JJykz3hcr9Z0vr8QMEFl0ZawIgyIzBCZ0dSbA8JSJXdikERtufMK0EJBWAiyZeQQMPcYAhv8ZByZpxoTjHZkVQqHLiBCrIzOHTdqxMT8wI0SFwaRbddLicCKM9ky/9GS2F9IoP53+jkneYJH+aMjCW5IzmWrO/Da2+7wo506WMz3YSuWiY6N3R54rn3ofubKD/ua/Z8UUdD0aI1QqvzkhHpROiDFl6CqUPxblAu2dJxnTRUYb2Yfwst0re4bEvcIxsaElOnLFpwNzdNJqpoMlrdGmijwflSOTR+60saZZ5Yt62r0fn44MT8v7KsbCjFz4UoUZdgSdRcAl4PxCulMEnTDq8QDMFJUHQczwKPlKYTTgPyVRCgw9V43Hh1vxiBt8JzMnTuP8a5hVvPC0cS+kDL08fFS8cMn0kzDy6beBqc/wx5Chq8/wpzlGqM3wQsHLlgbDyxYvotqMjR4v6fpMgIw3GA2GNxje7rQZE33efDUY3ny5FNBguBTgwkSD4cKEyyRdZgrHUxdtzFws2riE1GMCLGsWtGkjrVvQ3q20yus2sLpBsa9/9LjBQUj7WHaDQ6L2kfWmB2j947x+c+EGrQ5148UqG9ah8ZJ517aBpvs2kPCNdmfKbaDbNqXULbI3vLrv6wstsn/PDGqkRlhh3QAAAABJRU5ErkJggg==');
+background-size: cover;
+width: 0.7rem;
+height: 0.7rem;
+}
